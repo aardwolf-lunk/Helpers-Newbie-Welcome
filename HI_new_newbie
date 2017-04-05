@@ -19,7 +19,8 @@
    >
 <description trim="y">
 <![CDATA[
-Change the text on line 55 to match what you want as your welcome message, use @new_newbie to use the newbies name in the welcoming message. E.G : Hello @new_newbie, Welcome to Aardwolf!
+Change the text on line 55 in-between <send>newbie and </send> to what you want as your welcome message, 
+use @new_newbie to use the newbies name in the welcoming message. E.G : Hello @new_newbie, Welcome to Aardwolf!
 (optional) change the text in line 51 in the alias match to change the alias e.g match="hi newb"
 ]]>
 </description>
@@ -53,7 +54,7 @@ Change the text on line 55 to match what you want as your welcome message, use @
    expand_variables="y"
    sequence="100"
   >
-  <send>newbie your texthere, use @new_newbie to use the new newbies name...</send>
+  <send>newbie yourtexthere, use @new_newbie to use the newbie's name</send>
   </alias>
 </aliases>
 
